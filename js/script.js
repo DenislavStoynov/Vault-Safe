@@ -252,9 +252,9 @@ const resetGame = (winner) => {
 
 const generateRandomCode = () => {
     return [
-        { rotations: Math.floor(Math.random() * 0) + 1, dir: directions[Math.floor(Math.random() * directions.length)] },
-        // { rotations: Math.floor(Math.random() * 9) + 1, dir: directions[Math.floor(Math.random() * directions.length)] },
-        // { rotations: Math.floor(Math.random() * 9) + 1, dir: directions[Math.floor(Math.random() * directions.length)] },
+        { rotations: Math.floor(Math.random() * 9) + 1, dir: directions[Math.floor(Math.random() * directions.length)] },
+        { rotations: Math.floor(Math.random() * 9) + 1, dir: directions[Math.floor(Math.random() * directions.length)] },
+        { rotations: Math.floor(Math.random() * 9) + 1, dir: directions[Math.floor(Math.random() * directions.length)] },
     ];
 };
 
