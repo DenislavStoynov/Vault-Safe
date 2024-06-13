@@ -10,3 +10,6 @@
 - Rotate the handle 3 * 60 degrees clockwise.
 5. To rotate the handle, click on the right side to turn it clockwise or on the left side to turn it counterclockwise
 
+# NOTE:
+After compiling the ts file into js, I got errors related to missing or incomaptible ts and pixijs types/features which I couldn't resolve. That is why I use script1.js which is the non-compiled script.ts version.
+
